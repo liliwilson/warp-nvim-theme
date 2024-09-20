@@ -24,6 +24,15 @@ local function parse_yaml(content)
         local key, value = lines[i]:match("^(.-):%s*(.-)%s*$")
         if key then
             local trimmed_key = key:gsub("^%s*(.-)%s*$", "%1")
+
+            if trimmed_key == "background" or trimmed_key == "accent" then
+                -- background and accent can be split into gradients; if this is the case just use the first provided value
+                if value == "" then
+                    _, value = lines[i + 1]:match("^(.-):%s*(.-)%s*$")
+                    i = i + 2
+                end
+            end
+
             if trimmed_key == "bright" then
                 i = i + 1
                 while lines[i] do

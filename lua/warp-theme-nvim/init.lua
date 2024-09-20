@@ -3,7 +3,6 @@ local colorscheme = {}
 -- todo
 --      add the other syntax stuff from palenight
 --      handle light theming
---      handle the top/bottom background stuff for some file formats
 --      add error msging for the setup
 
 local utils = require("warp-theme-nvim.utils")
