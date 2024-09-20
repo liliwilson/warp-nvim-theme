@@ -1,5 +1,5 @@
 # warp-theme-nvim
-a neovim plugin to import warp terminal themes to neovim. 
+a neovim plugin to import warp terminal themes to neovim, using warp's [theme yaml file format](https://docs.warp.dev/appearance/custom-themes). 
 
 ## setup
 ### with a local warp theme file 
