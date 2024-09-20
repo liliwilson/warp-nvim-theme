@@ -32,3 +32,16 @@ return {
     end
 }
 ```
+
+## pretty examples
+
+### HackMIT 2024 theme:
+
+<img width="1552" alt="image" src="https://github.com/user-attachments/assets/9aa754c2-6e97-42fe-b30d-88b390f33284">
+<img width="1552" alt="image" src="https://github.com/user-attachments/assets/2abdb6f2-8672-48c8-bb08-bb80df592c5b">
+
+### 
+
+
+
+
