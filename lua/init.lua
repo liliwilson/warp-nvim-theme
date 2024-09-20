@@ -9,8 +9,8 @@ local colorscheme = {}
 --      make the yaml_link come from config
 --      add error msging for the setup
 
-local utils = require("warp-theme.utils")
-local colors = require("warp-theme.colors")
+local utils = require("warp-theme-nvim.utils")
+local colors = require("warp-theme-nvim.colors")
 
 local function apply_highlights(highlights)
     for group, opts in pairs(highlights) do
