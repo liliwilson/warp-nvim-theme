@@ -35,12 +35,15 @@ return {
 
 ## pretty examples
 
-### HackMIT 2024 theme:
+### hackmit 2024 theme
 
 <img width="1552" alt="image" src="https://github.com/user-attachments/assets/9aa754c2-6e97-42fe-b30d-88b390f33284">
 <img width="1552" alt="image" src="https://github.com/user-attachments/assets/2abdb6f2-8672-48c8-bb08-bb80df592c5b">
 
-### 
+### jellyfish warp theme
+
+<img width="1552" alt="image" src="https://github.com/user-attachments/assets/aa9eb19c-2c71-4edf-b01a-5e2e77bd7644">
+<img width="1552" alt="image" src="https://github.com/user-attachments/assets/71711555-2923-4de4-af6d-c21f66432efc">
 
 
 
