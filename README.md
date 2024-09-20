@@ -45,6 +45,10 @@ return {
 <img width="1552" alt="image" src="https://github.com/user-attachments/assets/aa9eb19c-2c71-4edf-b01a-5e2e77bd7644">
 <img width="1552" alt="image" src="https://github.com/user-attachments/assets/71711555-2923-4de4-af6d-c21f66432efc">
 
+### cyber wave warp theme
+
+<img width="1552" alt="image" src="https://github.com/user-attachments/assets/79c37a3e-ee26-4c54-af97-975944f40465">
+<img width="1552" alt="image" src="https://github.com/user-attachments/assets/ccd69453-6d8d-4259-896f-efb66534f270">
 
 
 
