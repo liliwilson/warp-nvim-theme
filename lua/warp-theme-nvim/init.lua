@@ -3,7 +3,6 @@ local colorscheme = {}
 -- todo
 --      add the other palenight syntax stuff
 --      handle the top/bottom background stuff
---      handle light themes
 --      add error msging for the setup
 
 local utils = require("warp-theme-nvim.utils")
@@ -31,7 +30,15 @@ colorscheme.setup = function(config)
     local theme = colors.get_colors(yaml_table)
     apply_highlights(theme)
 
-    vim.o.background = "dark"
+    -- read details from the warp theme (dark vs. light theme)
+    local details = "dark"
+    if yaml_table then
+        if yaml_table.details then
+            details = details:sub(1,-3)
+        end
+    end
+
+    vim.o.background = details
 end
 
 return colorscheme
