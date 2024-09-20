@@ -11,7 +11,7 @@ warp allows users to define custom themes! these themes often live in `~/.warp/t
 return {
     'liliwilson/warp-theme-nvim',
     config = function()
-        require('warp-theme').setup({
+        require('warp-theme-nvim').setup({
                 theme_link = "/Users/liliwilson/.warp/themes/hack_mit_2024.yaml"
             })
     end
@@ -26,7 +26,7 @@ warp also ships with a ton of neat default themes! the yaml files for these them
 return {
     'liliwilson/warp-theme-nvim',
     config = function()
-        require('warp-theme').setup({
+        require('warp-theme-nvim').setup({
             theme_link = "https://raw.githubusercontent.com/warpdotdev/themes/refs/heads/main/warp_bundled/gruvbox_dark.yaml"
         })
     end
