@@ -1,12 +1,9 @@
 local colorscheme = {}
 
 -- todo
---      make it more configurable so i can share this online lol
---
 --      add the other palenight syntax stuff
 --      handle the top/bottom background stuff
---      handle dark/light themes
---      make the yaml_link come from config
+--      handle light themes
 --      add error msging for the setup
 
 local utils = require("warp-theme-nvim.utils")

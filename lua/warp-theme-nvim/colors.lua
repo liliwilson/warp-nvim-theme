@@ -210,7 +210,6 @@ function M.get_colors(yaml_table)
         NeoTreeGitDeleted          = { fg = colors.red },
         NeoTreeGitConflict         = { fg = colors.red, bold = true },
         NeoTreeGitUntracked        = { fg = colors.yellow, italics = true },
-
     }
 
     return theme
